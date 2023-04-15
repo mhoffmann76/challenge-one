@@ -1,9 +1,9 @@
 const btnEncrypt = document.querySelector(".btnEncrypt");
 
 btnEncrypt.addEventListener("click", () => {
-  const regex = /^[a-z0-9]+$/;
+  const regex = /^[a-z0-9\s]+$/;
   if (!regex.test(mensagem.value)) {
-    mensagem.value = mensagem.value.replace(/[^a-z0-9]/g, "");
+    mensagem.value = mensagem.value.replace(/[^a-z0-9\s]/g, "");
     document.getElementById("resultado").innerHTML =
       "Atenção!!!\nFavor digitar letras minusculas e sem acento!";
   } else {
