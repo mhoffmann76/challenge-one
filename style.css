@@ -1,12 +1,8 @@
-
-*{
-  font-family: 'Inter', sans-serif;
-  
+* {
+  font-family: "Inter", sans-serif;
 }
 body {
   background: #e5e5e5;
- 
- 
 }
 
 header img {
@@ -19,19 +15,14 @@ header img {
   display: flex;
   margin-left: 60px;
   gap: 100px;
- 
-  
 }
 
 .p1 {
   width: 700px;
   margin-top: 50px;
-  
-  
 }
 
 .p1 textarea {
-
   height: 288px;
   padding-top: 50px;
   padding-left: 52px;
@@ -44,22 +35,15 @@ header img {
   font-size: 32px;
   line-height: 150%;
   overflow: hidden;
- 
-  
-
-
 }
 
-.p1 p{
+.p1 p {
   padding-top: 30px;
   margin-left: 20px;
   color: #495057;
   line-height: 18px;
   size: 12px;
-
 }
-
-
 
 .p1 textarea:focus,
 input:focus {
@@ -101,10 +85,10 @@ input:focus {
   background: #ffffff;
   margin-top: 30px;
   cursor: pointer;
-  border:  1px #495057 solid ;
+  border: 1px #495057 solid;
   font-size: 16px;
   line-height: 19px;
-  color: #0A3871;
+  color: #0a3871;
 }
 
 .btn {
@@ -113,83 +97,77 @@ input:focus {
   justify-content: center;
   gap: 8px;
   margin-top: 10px;
-
 }
 
-  .btn p{
-    display: block;
-    position: absolute;
-    
+.btn p {
+  display: block;
+  position: absolute;
+}
 
-  }
-
- 
-
-.btn button{
+.btn button {
   width: 328px;
   height: 67px;
   border-radius: 24px;
   padding: 24px;
   font-size: 16px;
   line-height: 19px;
-  border:  1px #495057 solid ;
+  border: 1px #495057 solid;
   cursor: pointer;
-  
- 
 }
 
-.btnEncrypt{
-  color: #FFFFFF;
-  background: #0A3871;
+.btnEncrypt {
+  color: #ffffff;
+  background: #0a3871;
 }
 
-.btnDescrypt{
-  color: #0A3871;
-  
+.btnDescrypt {
+  color: #0a3871;
 }
 
 @media screen and (max-width: 600px) {
 
-  
+
+ 
   .container {
     width: auto;
     margin-left: 5px;
-   
+    overflow: hidden;
     flex-direction: column;
-
   }
 
-  .btn{
+  .btn {
     width: auto;
     flex-direction: column;
     margin-left: 5px;
-    
   }
 
-  
-  .p1 p{
-    margin-left: auto;
+  .p1 p {
+    margin-left: 20px;
   }
 
-  .p1 textarea{
+  .p1 textarea {
     width: 300px;
     padding: 20px;
   }
-
-  
 }
-.p2{
-  width: 350px;
+.p2 {
+  width: auto;
   margin-bottom: 20px;
+  
+ 
+  
+
 
 }
 
-.p2 button{
+.p2 button {
   margin-left: 10px;
 }
 
-.p2 textarea{
-width: 300px;
-padding: 2px;
+.p2 textarea {
+  width: 300px;
+  padding: 2px;
 }
-
+.p1 p {
+  font-size: 12px;
+}
