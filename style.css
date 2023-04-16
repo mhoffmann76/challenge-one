@@ -147,11 +147,12 @@ input:focus {
   .btn {
     width: auto;
     flex-direction: column;
+    margin-left: 20px;
 
   }
 
   .p1 p {
-    margin-left: 20px;
+    margin-left: 35px;
   }
 
   .p1 textarea {
