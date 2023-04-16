@@ -6,6 +6,7 @@ btnEncrypt.addEventListener("click", () => {
     mensagem.value = mensagem.value.replace(/[^a-z0-9\s]/g, "");
     document.getElementById("resultado").innerHTML =
       "Atenção!!!\nFavor digitar letras minusculas e sem acento!";
+      mensagem.value = "";
   } else {
     encrypt();
   }
