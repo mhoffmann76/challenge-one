@@ -153,12 +153,18 @@ input:focus {
 
   .p1 p {
     margin-left: 35px;
+    font-size: 12px;
+   
   }
 
   .p1 textarea {
     width: 300px;
     padding: 20px;
+   
+    
   }
+
+  
 
   .p2 {
     width: auto;
@@ -176,7 +182,5 @@ input:focus {
     width: 300px;
     padding: 2px;
   }
-  .p1 p {
-    font-size: 12px;
-  }
+  
 }
